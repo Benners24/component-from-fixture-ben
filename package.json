@@ -1,0 +1,25 @@
+{
+  "name": "component-from-fixture-ben",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Presentational component that renders entirely from a fixture file, proven against missing fields and the empty case.",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/tests/**/*.test.js",
+    "check": "npm run test"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_comment": "Modeled on tala-app's fixtures/readings.json shape. Rows below deliberately include a complete row, several half-stripped rows (missing headline/body/elements/favourableDirection), and one degenerate row with only cellKey, to prove ReadingCard renders through missing data rather than crashing on it.",
+  "readings": [
+    {
+      "cellKey": 101,
+      "date": "2026-08-29",
+      "todayLabel": "己巳",
+      "animalOfDay": "Snake",
+      "relation": "supported",
+      "headline": "A day that holds you up without asking",
+      "favourableDirection": "SE",
+      "clash": false,
+      "body": "Earth meets earth today and nothing has to be forced. Lean on what's already working rather than starting something new.",
+      "elements": { "wood": 1.5, "fire": 1.0, "earth": 3.0, "metal": 1.5, "water": 1.0 }
+    },
+    {
+      "cellKey": 102,
+      "date": "2026-08-29",
+      "todayLabel": "己巳",
+      "animalOfDay": "Snake",
+      "relation": "demanding"
+    },
+    {
+      "cellKey": 103,
+      "date": "2026-08-29",
+      "todayLabel": "己巳",
+      "animalOfDay": "Snake",
+      "relation": "rewarding",
+      "headline": "An ask that lands",
+      "body": "Fire meets metal on terms that favour you today."
+    },
+    {
+      "cellKey": 104,
+      "date": "2026-08-29",
+      "todayLabel": "己巳",
+      "animalOfDay": "Snake",
+      "relation": "neutral",
+      "elements": { "wood": 2.0, "fire": 2.0, "earth": 2.0, "metal": 2.0, "water": 2.0 }
+    },
+    {
+      "cellKey": 105
+    }
+  ]
+}
